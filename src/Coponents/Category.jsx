@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanCategory from '.../mages/Woman.png'
+import WomanCategory from '../assets/images/woman.png';
 const categoryData = [
   {
     id: 1,
