@@ -5,6 +5,7 @@ import Category from '../Coponents/Category';
 import { useSelector, useDispatch } from 'react-redux';
 import { setProducts } from '../redux/products';
 import ProductCard from '../Coponents/ProductCard';
+import WomanCategory from '../assets/Images/WomanCart.png'
 import Shop from './Shop';
 
 
@@ -38,7 +39,7 @@ function Home() {
         </div>
         <div className='w-full md:w-9/12 h-96 relative bg-gradient-to-r from-fuchsia-500 to-pink-500 rounded flex justify-center items-center  '>
          
-          <img src="src/assets/WomanCart.png" alt="Woman with Cart"
+          <img src={WomanCategory} alt="Woman with Cart"
             className='h-3/5 sm:h-full  w-full -right-4  object-cover md:w-6/12 lg:w-8/12 absolute sm:right-3  lg:right-3'
           />
 
