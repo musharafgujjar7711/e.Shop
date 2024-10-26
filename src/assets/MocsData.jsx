@@ -1,13 +1,13 @@
-import watchImage from './Images/watch.jpeg';
-import headphoneImage from './Images/headphone.jpeg';
-import manshirtImage from './Images/manshirt.jpeg';
-import shoImage from './images/sho.png';
-import shampoImage from './Images/shampo.jpeg';
-import robotImage from './Images/robot.jpeg';
-import proImage from './Images/pro.png';
-import bagImage from './Images/bag.png';
-import makImage from './Images/mak.png';
-import slipImage from './Images/slip.png';
+import watchImage from '../assets/images/watch.jpeg';
+import headphoneImage from '../assets/images/headphone.jpeg';
+import manshirtImage from '../assets/images/manshirt.jpeg';
+import shoImage from '../assets/images/sho.png';
+import shampoImage from '../assets/images/shampo.jpeg';
+import robotImage from '../assets/images/robot.jpeg';
+import proImage from '../assets/images/pro.png';
+import bagImage from '../assets/images/bag.png';
+import makImage from '../assets/images/mak.png';
+import slipImage from '../assets/images/slip.png';
 ;
 
 export const Catagories=[
