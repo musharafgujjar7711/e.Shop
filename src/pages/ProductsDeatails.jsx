@@ -14,7 +14,7 @@ function ProductsDeatails() {
     },[id]) 
     if(!product) return <div>Loading........</div>
   return (
-    <div className=' container mx-auto px-4 py-8 md:px-16 md:py-24'>
+    <div className=' container mx-auto px-4 py-8 md:px-16 md:py-24 mb-36 md:mb-4 mt-3'>
         <div className=' flex flex-col h-96  md:flex-row gap-8'>
              <div className='md:w-1/2 flex justify-center py-4 px-4 shadow-lg'>
                   <img src={product.image} alt="" className=' h-full w-full' />
