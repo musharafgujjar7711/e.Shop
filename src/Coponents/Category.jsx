@@ -1,11 +1,13 @@
 import React from 'react';
 import WomanCategorys from '../assets/Images/woman.png';
+import manCategorys from '../assets/Images/man.png';
+import ChildCategorys from '../assets/Images/kids.png';
 const categoryData = [
   {
     id: 1,
     title: 'Kids',
     bgColor: 'bg-blue-200',
-    image: 'public/imges/man.png',
+    image: manCategorys,
   },
   {
     id: 2,
@@ -17,7 +19,7 @@ const categoryData = [
     id: 3,
     title: 'Men',
     bgColor: 'bg-red-200',
-    image: 'public/imges/kids.png',
+    image: ChildCategorys
   },
 ];
 
