@@ -15,23 +15,23 @@ function ProductsDeatails() {
     if(!product) return <div>Loading........</div>
   return (
     <div className=' container mx-auto px-4 py-8 md:px-16 md:py-24'>
-        <div className=' flex flex-col  md:flex-row gap-8'>
+        <div className=' flex flex-col h-96  md:flex-row gap-8'>
              <div className='md:w-1/2 flex justify-center py-4 px-4 shadow-lg'>
                   <img src={product.image} alt="" className=' h-full w-full' />
              </div>
-             <div className=' md:w-1/2'>
-                <h1>{product.name}</h1>
-                <p>{product.price}</p>
-                <div>
-                    <button>Add to Cart</button>
+             <div className=' md:w-1/2 flex flex-col gap-6 py-6 px-6  items-center shadow-xl'>
+                <h1 className=' text-2xl font-bold'>{product.name}</h1>
+                <p className='font-semibold'>${product.price}</p>
+                <div className=' bg-red-600 py-2 px-3 text-white rounded-sm '>
+                    <button >Add to Cart</button>
                 </div>
                
-              <div>
-                <div>
+              <div className=' space-y-3'>
+                <div className=' flex items-center gap-2'>
                   <FaCar/>
                   <p>Delivery & Return</p>
                 </div>
-                <div>
+                <div className=' flex items-center gap-2'>
                      <FaQuestionCircle/>
                      Ask a Question
                 </div>
