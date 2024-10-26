@@ -1,4 +1,13 @@
 import image1 from '../assets/Images/watch.jpeg'
+import image2 from '../assets/Images/headphone.jpeg'
+import image3 from '../assets/Images/manshirt.jpeg'
+import image4 from '../assets/Images/sho.png'
+import image5 from '../assets/Images/shampo.jpeg'
+import image6 from '../assets/Images/robot.jpeg'
+import image7 from '../assets/Images/pro.png'
+import image8 from '../assets/Images/bag.png'
+import image9 from '../assets/Images/mak.png'
+import image10 from '../assets/Images/slip.png'
 export const Catagories=[
    "Electronics",
    "Fashion",
@@ -19,63 +28,62 @@ export const mockData=[
       id: 2,
       name: 'Product 2',
       price: 20.99,
-      image: 'public/imges/headphone.jpeg'
+      image: image2
       
    },
    {
       id: 3,
       name: 'Product 3',
       price: 20.99,
-      image: 'public/imges/manshirt.jpeg'
+      image: image3
       
    },
    {
       id: 4,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/sho.png'
+      image: image4
       
    },
    {
       id: 5,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/shampo.jpeg'
+      image:image5
       
    },
    {
       id: 6,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/robot.jpeg'
-      
+      image: image6
    },
    {
       id: 7,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/pro.png'
+      image: image7
       
    },
    {
       id: 8,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/bag.png'
+      image: image8
       
    },
    {
       id: 9,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/mak.png'
+      image: image9
       
    },
    {
       id: 10,
       name: 'Product 4',
       price: 20.99,
-      image: 'public/imges/slip.png'
+      image: image10
       
    },
   ]
