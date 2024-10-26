@@ -1,3 +1,4 @@
+import image1 from '../assets/Images/watch.jpeg'
 export const Catagories=[
    "Electronics",
    "Fashion",
@@ -11,7 +12,7 @@ export const mockData=[
       id: 1,
       name: 'Product 1',
       price: 20.99,
-      image: 'public/imges/watch.jpeg'
+      image: image1
       
    },
    {
