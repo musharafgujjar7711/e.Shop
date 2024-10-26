@@ -29,8 +29,8 @@ function Home() {
         <div className=' w-full md:w-3/12 '>
           <h1 className=' py-2 font-bold capitalize bg-red-500 px-1 text-white'>shop of catagoryu</h1>
           <ul className=' space-y-3 bg-gray-200 px-3'>
-            {Catagories.map((catagory, index) => (
-              <li key={index} className=' flex items-center gap-1'>
+            {Catagories.map((catagory, index ) => (
+              <li key={index} k className=' flex items-center gap-1'>
                 <div className=' h-2 w-2   rounded-full border border-red-700'></div>
                 {catagory}
               </li>

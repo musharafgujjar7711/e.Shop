@@ -1,15 +1,3 @@
-import watchImage from '../assets/images/watch.jpeg';
-import headphoneImage from '../assets/images/headphone.jpeg';
-import manshirtImage from '../assets/images/manshirt.jpeg';
-import shoImage from '../assets/images/sho.png';
-import shampoImage from '../assets/images/shampo.jpeg';
-import robotImage from '../assets/images/robot.jpeg';
-import proImage from '../assets/images/pro.png';
-import bagImage from '../assets/images/bag.png';
-import makImage from '../assets/images/mak.png';
-import slipImage from '../assets/images/slip.png';
-;
-
 export const Catagories=[
    "Electronics",
    "Fashion",
@@ -18,15 +6,75 @@ export const Catagories=[
    "Sports",
    "Automotive"
 ]
-export const mockData = [
-   { id: 1, name: 'Product 1', price: 20.99, image: watchImage },
-   { id: 2, name: 'Product 2', price: 20.99, image: headphoneImage },
-   { id: 3, name: 'Product 3', price: 20.99, image: manshirtImage },
-   { id: 4, name: 'Product 4', price: 20.99, image: shoImage },
-   { id: 5, name: 'Product 5', price: 20.99, image: shampoImage },
-   { id: 6, name: 'Product 6', price: 20.99, image: robotImage },
-   { id: 7, name: 'Product 7', price: 20.99, image: proImage },
-   { id: 8, name: 'Product 8', price: 20.99, image: bagImage },
-   { id: 9, name: 'Product 9', price: 20.99, image: makImage },
-   { id: 10, name: 'Product 10', price: 20.99, image: slipImage },
- ];
+export const mockData=[
+   {
+      id: 1,
+      name: 'Product 1',
+      price: 20.99,
+      image: 'public/imges/watch.jpeg'
+      
+   },
+   {
+      id: 2,
+      name: 'Product 2',
+      price: 20.99,
+      image: 'public/imges/headphone.jpeg'
+      
+   },
+   {
+      id: 3,
+      name: 'Product 3',
+      price: 20.99,
+      image: 'public/imges/manshirt.jpeg'
+      
+   },
+   {
+      id: 4,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/sho.png'
+      
+   },
+   {
+      id: 5,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/shampo.jpeg'
+      
+   },
+   {
+      id: 6,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/robot.jpeg'
+      
+   },
+   {
+      id: 7,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/pro.png'
+      
+   },
+   {
+      id: 8,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/bag.png'
+      
+   },
+   {
+      id: 9,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/mak.png'
+      
+   },
+   {
+      id: 10,
+      name: 'Product 4',
+      price: 20.99,
+      image: 'public/imges/slip.png'
+      
+   },
+  ]
