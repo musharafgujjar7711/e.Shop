@@ -1,3 +1,4 @@
+
 export const Catagories=[
    "Electronics",
    "Fashion",

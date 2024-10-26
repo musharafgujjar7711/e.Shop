@@ -38,7 +38,7 @@ function Home() {
         </div>
         <div className='w-full md:w-9/12 h-96 relative bg-gradient-to-r from-fuchsia-500 to-pink-500 rounded flex justify-center items-center  '>
          
-          <img src="public/imges/WomanCart.png" alt="Woman with Cart"
+          <img src="src/assets/WomanCart.png" alt="Woman with Cart"
             className='h-3/5 sm:h-full  w-full -right-4  object-cover md:w-6/12 lg:w-8/12 absolute sm:right-3  lg:right-3'
           />
 
