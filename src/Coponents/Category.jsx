@@ -1,5 +1,5 @@
 import React from 'react';
-import WomanCategory from '../assets/Images/woman.png';
+import WomanCategorys from '../assets/Images/woman.png';
 const categoryData = [
   {
     id: 1,
@@ -11,7 +11,7 @@ const categoryData = [
     id: 2,
     title: 'Women',
     bgColor: 'bg-yellow-200',
-    image: WomanCategory,
+    image: WomanCategorys,
   },
   {
     id: 3,
